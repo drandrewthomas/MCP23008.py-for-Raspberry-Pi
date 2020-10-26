@@ -49,4 +49,4 @@ while 1:
 
 ## Acknowledgements
 
-The original concept and code was based on MCP23017.py by Nathan Chantrell [on his Github](http://nathan.chantrell.net). In the end most of his code has gone, and some bugs removed, in changing the code to a class base and for use with Python 2 or 3. However, it was a great inspiration to code a similar tool for the MCP23008 and so is gratefully acknowledged.
+The original concept and code was based on MCP23017.py by Nathan Chantrell [on his Github](https://github.com/nathanchantrell/Python-MCP230XX). In the end most of his code has gone, and some bugs removed, in changing the code to a class base and for use with Python 2 or 3. However, it was a great inspiration to code a similar tool for the MCP23008 and so is gratefully acknowledged.
