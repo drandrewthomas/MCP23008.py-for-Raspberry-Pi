@@ -8,14 +8,17 @@ MCP23008.py is a Python (2 or 3) commandline tool and library for the MCP23008 I
 
 Below is the basic format for use on the commandline. If you're using Python 3 just change the start to python3 and it will still work exactly the same.
 
-'python mcp23008.py -b <i2cbus> -a <i2caddress> -o <output pin> -s <high|low>'
+***python mcp23008.py -b <i2cbus> -a <i2caddress> -o <output pin> -s <high|low>***
 
 Each of the options can be set as detailed below:
 
-'-b (optional) : Bus number should be 0 for old Pi's or 1 for newer Pi's (default is 1)
--a (optional) : Address should be 0 for 0x20, 1 for 0x21, etc. (default is 0 for 0x21)
--o (required) : GPIO pin number that is to have its state set (0 to 7)
--s (required) : State the GPIO pin is to be set to (either 'high' or 'low')'
+-b (optional) : Bus number should be 0 for old Pi's or 1 for newer Pi's (default is 1).
+
+-a (optional) : Address should be 0 for 0x20, 1 for 0x21, etc. (default is 0 for 0x21).
+
+-o (required) : GPIO pin number that is to have its state set (0 to 7).
+
+-s (required) : State the GPIO pin is to be set to (either 'high' or 'low').
 
 If you regularly need to include the address or bus parameters you can, of course, edit mcp23008.py to change the default values near the top of the file.
 
