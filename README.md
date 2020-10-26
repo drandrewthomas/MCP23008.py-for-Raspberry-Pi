@@ -8,7 +8,7 @@ MCP23008.py is a Python (2 or 3) commandline tool and library for the MCP23008 I
 
 Below is the basic format for use on the commandline. If you're using Python 3 just change the start to python3 and it will still work exactly the same.
 
-***python mcp23008.py -b <i2cbus> -a <i2caddress> -o <output pin> -s <high|low>***
+***python mcp23008.py -b &lt;i2cbus&gt; -a &lt;i2caddress&gt; -o &lt;output pin&gt; -s &lt;high|low&gt;***
 
 Each of the options can be set as detailed below:
 
