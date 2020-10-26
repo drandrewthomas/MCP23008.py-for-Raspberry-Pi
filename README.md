@@ -14,7 +14,7 @@ Each of the options can be set as detailed below:
 
 -b (optional) : Bus number should be 0 for old Pi's or 1 for newer Pi's (default is 1).
 
--a (optional) : Address should be 0 for 0x20, 1 for 0x21, etc. (default is 0 for 0x21).
+-a (optional) : Address should be 0 for 0x20, 1 for 0x21, etc. (default is 0 for 0x20).
 
 -o (required) : GPIO pin number that is to have its state set (0 to 7).
 
