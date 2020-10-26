@@ -23,7 +23,8 @@ If you regularly need to include the address or bus parameters you can, of cours
 
 Three examples are included that illustrate use of mcp23008.py in your own programs as a library (the pins to connect the LED and/or pull-down switch to are shown in the example codes). However, here's the button and LED example as a quick illustration of how it works:
 
-'from time import sleep
+'''
+from time import sleep
 import mcp23008 as mcp
 
 buttonpin=6
@@ -40,7 +41,8 @@ sleep(0.5)
 while 1:
     but=1-dev.gpio(buttonpin)
     dev.set_gpio(ledpin,but)
-    sleep(0.1)'
+    sleep(0.1)
+'''
 
 ## Acknowledgements
 
